@@ -1,0 +1,32 @@
+{
+  "name": "shopify-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinquirk/shopify-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavinquirk/shopify-demo/issues"
+  },
+  "homepage": "https://github.com/gavinquirk/shopify-demo#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-session": "^6.1.0",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
